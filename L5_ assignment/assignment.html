@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>L5 Assignment</title>
 </head>
 <body>
@@ -19,6 +20,7 @@
     <section id="form">
         <!-- I chose GET because the info in this form is not at all important in any way, hence security is not important -->
         <form action="./assignment.html"method="get">
+            <!--Simple name/email questions-->
             <label for="name">Whot ur name?</label>
             <br>
             <input type="text" id="name" name="name" maxlength=" 50" required><br>
@@ -27,6 +29,7 @@
             <br>
             <input type="text" id="email" name="email" required><br>
 
+            <!--Very important thing to inquire about-->
             <p> Favorite Hello Kitty character? (objectively correct choices)</p>
             <label for="fav1">Hello Kitty</label><br>
             <input type="radio" id="fav" name="fav1"><br>
@@ -39,6 +42,7 @@
             <label for="fav5">other inferior choice</label><br>
             <input type="radio" id="fav" name="fav5"><br>
 
+            <!--Secondary very important thing i need to know-->
             <p> What kind of music do you like?</p>
             <input type="checkbox" id="musica1" name="musica1" value="pop">
             <label for="musica1"> I like pop music</label><br>
@@ -54,14 +58,16 @@
             <label for="musica6"> I like another kind of music</label><br>
 
             <br>
+            <!--comments! for those who have any-->
             <label for="comments">Any comments? (pls say sorry if you made me sad)</label><br>
             <input type="textarea" id="comments" name="comments" maxlength="200" size="150"><br>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="submit">
         </form>
     </section>
     <br>
     <section id="video">
+        <!--Wacky wild and amusing video as a reward for being on my website-->
         <video width="320" height="240" controls>
         <source src="./4115295-uhd_4096_2160_25fps.mp4" type="video/mp4" alt="dude putting toilet paper rolls over his eyes">
     </section>
