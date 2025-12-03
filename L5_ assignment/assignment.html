@@ -6,6 +6,65 @@
     <title>L5 Assignment</title>
 </head>
 <body>
-    
+    <header>
+        Form and video website!
+    </header>
+    <p>
+        This is a simple form that will ask you questions. <br>
+        You best answer them or ummm.... 
+        <br>
+        I'll be really sad
+    </p>
+    <img src="./sadge.jpg" alt="POV: website goer made you sad">
+    <section id="form">
+        <!-- I chose GET because the info in this form is not at all important in any way, hence security is not important -->
+        <form action="./assignment.html"method="get">
+            <label for="name">Whot ur name?</label>
+            <br>
+            <input type="text" id="name" name="name" maxlength=" 50" required><br>
+
+            <label for="email">what's ur email? (don't wory about it)</label>
+            <br>
+            <input type="text" id="email" name="email" required><br>
+
+            <p> Favorite Hello Kitty character? (objectively correct choices)</p>
+            <label for="fav1">Hello Kitty</label><br>
+            <input type="radio" id="fav" name="fav1"><br>
+            <label for="fav2">Kuromi</label><br>
+            <input type="radio" id="fav" name="fav2"><br>
+            <label for="fav3">Cinnamoroll</label><br>
+            <input type="radio" id="fav" name="fav3"><br>
+            <label for="fav4">Kerokerokeroppi</label><br>
+            <input type="radio" id="fav" name="fav4"><br>
+            <label for="fav5">other inferior choice</label><br>
+            <input type="radio" id="fav" name="fav5"><br>
+
+            <p> What kind of music do you like?</p>
+            <input type="checkbox" id="musica1" name="musica1" value="pop">
+            <label for="musica1"> I like pop music</label><br>
+            <input type="checkbox" id="musica2" name="musica2" value="rock">
+            <label for="musica2"> I like rock music</label><br>
+            <input type="checkbox" id="musica3" name="musica3" value="classical">
+            <label for="musica3"> I like classical music</label><br>
+            <input type="checkbox" id="musica4" name="musica4"  value="kpop">
+            <label for="musica4"> I like kpop</label><br>
+            <input type="checkbox" id="musica5" name="musica5" value="country">
+            <label for="musica5"> I like country music</label><br>
+            <input type="checkbox" id="musica6" name="musica6" value="other">
+            <label for="musica6"> I like another kind of music</label><br>
+
+            <br>
+            <label for="comments">Any comments? (pls say sorry if you made me sad)</label><br>
+            <input type="textarea" id="comments" name="comments" maxlength="200" size="150"><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <br>
+    <section id="video">
+        <video width="320" height="240" controls>
+        <source src="./4115295-uhd_4096_2160_25fps.mp4" type="video/mp4" alt="dude putting toilet paper rolls over his eyes">
+    </section>
+        
 </body>
 </html>
